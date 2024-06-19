@@ -852,11 +852,15 @@
     color: var(--gold-crayola);
   }
 
-  .buttonRegister{
+  .buttonNextPage {
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--gold-crayola);
-    color: black;
+    text-decoration: none;
   }
+ 
   
   .novoUsuarioTxt{
     text-align: start;
