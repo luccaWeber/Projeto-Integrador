@@ -777,7 +777,6 @@
 .main {
     width: 800px;
     margin: 30px auto;
-    background-image: ;
 }
   .section-title {
     text-align: center;
@@ -836,6 +835,15 @@
     color: var(--gold-crayola);
   }
 
+  .buttonNextPage {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gold-crayola);
+    text-decoration: none;
+  }
+  
   .buttonLogin{
     background-color: var(--gold-crayola);
     color: black;
