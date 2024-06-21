@@ -9,7 +9,7 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Minhas reservas</title>
+  <title>Cupom</title>
   <meta name="title" content="La cucina del re">
 
   <!-- 
@@ -27,7 +27,7 @@
   <!-- 
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/styleMinhasReservas.css">
+  <link rel="stylesheet" href="./assets/css/styleCupomDetalhes.css">
 
   <!-- 
     - preload images
@@ -133,7 +133,7 @@
             </li>
 
             <li class="navbar-item">
-                <a href="./minhasReservas.html" class="navbar-link hover-underline active">
+                <a href="" class="navbar-link hover-underline">
                   <div class="separator"></div>
     
                   <span class="span">Minhas Reservas</span>
@@ -141,7 +141,7 @@
               </li>
 
             <li class="navbar-item">
-              <a href="./cupons.html" class="navbar-link hover-underline">
+              <a href="./cupons.html" class="navbar-link hover-underline active">
                 <div class="separator"></div>
   
                 <span class="span">Cupons</span>
@@ -155,8 +155,7 @@
                   <span class="span">Promoções</span>
                 </a>
             </li>
-        
-  
+
           </ul>
   
           <div class="text-center">
@@ -199,46 +198,37 @@
       -->
       <section class="section menu" aria-label="menu-label" id="menu">
         <div class="main">
-          <h2 class="headline-1 section-title text-center">Minhas reservas</h2>
-            <div class="table-reservas">
-            <div class="table-title">
+          <h2 class="headline-1 section-title text-center">Cupons</h2>
+          <div class="contentCupom">
+            <div class="imgContentCupom">
+              <img class="imgCupom" src="./assets/images/SALMAO_474x453.png" /> 
+            </div>  
+            <div class="descContentCupom">
+              <div class="title-cupom">Costela na brasa</div>
+              <p class="description-cupom">filé de peixe branco ao molho de camarões e champanhe</p>
+              <div class="prices">
+                <div class="oldPrice">R$75,00</div>
+                <div class="newPrice">R$70,00</div>
               </div>
-              <table class="table-fill">
-              <thead>
-              <tr>
-              <th class="text-left">Data e Hora</th>
-              <th class="text-left"></th>
-              </tr>
-              </thead>
-              <tbody class="table-hover">
-              <tr>
-              <td class="text-left">Dia 20/04/2024 13:00</td>
-              <td class="text-left">Cancelar reserva</td>
-              </tr>
-              <tr>
-              <td class="text-left">Dia 18/04/2024 19:00</td>
-              <td class="text-left">Cancelar reserva</td>
-              </tr>
-              <tr>
-              <td class="text-left">Dia 27/04/2024 20:00</td>
-              <td class="text-left">Cancelar reserva</td>
-              </tr>
-              <tr>
-              </tbody>
-              </table>
+              <div class="btnCupom">
+                <a href="./gerarCupom.html" class="btn btn-primary">
+                <span class="text text-1">Resgatar esse cupom</span>
+  
+                <span class="text text-2" aria-hidden="true">Resgatar esse cupom</span>
+                </a>
+              </div>
+              
+            </div>
           </div>
         </div>
       </section>
       
-      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 
   <!-- 
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
-  <script src='./assets/js/minhasreservas.js'></script>
-  
 
   <!-- 
     - ionicon link
